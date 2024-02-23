@@ -10,6 +10,7 @@
 	<script>
 		function secondHighest(arr) {
 			//Write your code here
+			arr = arr.map(Number);
 			if(arr.length<2)return undefined;
 			arr.sort((a,b)=>b-a);
 			return arr[1];
