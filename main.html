@@ -10,7 +10,8 @@
 	<script>
 		function secondHighest(arr) {
 			//Write your code here
-			
+			if(arr.length<2)return;
+			return arr.sort().reverse()[1];
 		}
 
 		function Main() {
